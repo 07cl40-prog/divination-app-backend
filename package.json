@@ -1,0 +1,31 @@
+{
+  "name": "divination-app-backend",
+  "version": "1.0.0",
+  "description": "DivineHub 后端服务器",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "divination",
+    "fortune-telling",
+    "api"
+  ],
+  "author": "DivineHub",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "stripe": "^11.0.0",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
